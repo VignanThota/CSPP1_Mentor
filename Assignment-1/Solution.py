@@ -7,12 +7,14 @@
 def factorial(n):
 	'''
 	n is positive Integer
-
+	
 	returns: a positive integer, the factorial of n.
 	'''
 	# Your code here
-	
-
+	val = 1
+	for i in range(1,n+1):
+		val = val*i
+	return val
 
 def main():
 	data=input()
